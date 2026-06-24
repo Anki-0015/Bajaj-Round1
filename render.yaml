@@ -3,4 +3,4 @@ services:
     name: bfhl-api
     env: docker
     plan: free
-    healthCheckPath: /v3/api-docs
+    healthCheckPath: /actuator/health
